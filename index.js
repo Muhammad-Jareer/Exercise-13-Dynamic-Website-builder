@@ -24,6 +24,5 @@ function card_generator(title, cName, views, monthsOld, duration, thumbnail) {
 document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html;
 }
 
-card_generator("PLAY ALLSigma Web Development Course - Web Development Tutorials", "CodewithHarry", 65000, 7, "31:32", "images/thumbnail.webp");
 
-
+let details = card_generator("PLAY ALLSigma Web Development Course - Web Development Tutorials", "CodewithHarry", 65000, 7, "31:32", "images/thumbnail.webp");

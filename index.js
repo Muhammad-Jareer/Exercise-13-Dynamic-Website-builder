@@ -1,6 +1,8 @@
 console.log("This is JavaScript");
 
+
 function card_generator(title, cName, views, monthsOld, duration, thumbnail) {
+
     let viewStr
     if (views < 100000) {
         viewStr = views/1000 + "K";
@@ -24,5 +26,7 @@ function card_generator(title, cName, views, monthsOld, duration, thumbnail) {
 document.querySelector(".container").innerHTML = document.querySelector(".container").innerHTML + html;
 }
 
+// card_generator()
+let details = card_generator ( prompt("Enter comma-separated values for the array:"));
 
-let details = card_generator("PLAY ALLSigma Web Development Course - Web Development Tutorials", "CodewithHarry", 65000, 7, "31:32", "images/thumbnail.webp");
+// let details = card_generator("PLAY ALLSigma Web Development Course - Web Development Tutorials", "CodewithHarry", 65000, 7, "31:32", "images/thumbnail.webp");
